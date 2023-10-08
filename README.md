@@ -1,7 +1,3 @@
-# Rock_Paper_Scissors_Game
-Certainly! Here's a simple README file for your Rock Paper Scissors game project:
-
----
 # Rock Paper Scissors Game
 
 This is a basic Rock Paper Scissors game created as a part of my early web development journey. It's a web-based game built using HTML, CSS, and JavaScript.
@@ -40,12 +36,9 @@ Feel free to fork this project and make your own enhancements!
 
 ## Author
 
-This project was created by [Your Name].
+This project was created by Swapnil Singh.
 
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
 
----
-
-Replace `[Your Name]` in the README with your actual name or username. Additionally, you can add any other sections or details you find relevant for your project.
