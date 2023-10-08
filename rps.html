@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0" />
+        <title>Rock Paper Scissors Game</title>
+        <link
+            rel="stylesheet"
+            href="rps.css" />
+    </head>
+
+    <body>
+        <p class="title">Rock Paper Scissors</p>
+        <div class="buttons">
+            <button
+                class="rock-button"
+                onclick="
+            playerMove = 1;
+            pchoice ='Rock';
+            CChoiceResult(playerMove);
+            ">
+                <img
+                    class="rock-image"
+                    src="images/rock.png"
+                    width="250px"
+                    height="250px" />
+            </button>
+            <button
+                class="paper-button"
+                onclick="
+            playerMove = 2;
+            pchoice ='Paper';
+            CChoiceResult(playerMove);
+
+        ">
+                <img
+                    class="rock-image"
+                    src="images/Paper.png"
+                    width="250px"
+                    height="250px" />
+            </button>
+            <button
+                class="scissor-button"
+                onclick="
+            playerMove = 3;
+            pchoice ='Scissors';
+            CChoiceResult(playerMove);
+
+        ">
+                <img
+                    class="rock-image"
+                    src="images/scissors.png"
+                    width="250px"
+                    height="250px" />
+            </button>
+        </div>
+        <p class="final-result"></p>
+        <p class="result-choices"></p>
+        <p class="js-score"></p>
+        <button
+            class="reset-button"
+            onclick="
+            resetScore();
+        
+        ">
+            Reset Score
+        </button>
+        <button
+            class="autoplay"
+            onclick="autoPlay();"></button>
+        <script src="rps.js"></script>
+    </body>
+</html>
+<!-- ${result} \n Computer Selected ${cChoice} -->
